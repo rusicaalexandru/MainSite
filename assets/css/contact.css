@@ -1,0 +1,27 @@
+diva {
+    background: beige;
+    border: cadetblue 2px solid;
+}
+
+p,
+div {
+    display: inline-block;
+}
+
+p {
+    width: 700px;
+    font-size: 20px;
+}
+
+iframe {
+    margin-right: 0px;
+}
+
+.map {
+    padding-top: 15px;
+}
+
+div iframe {
+    height: 700px;
+    width: 800px;
+}

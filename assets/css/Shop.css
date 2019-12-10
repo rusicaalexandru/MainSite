@@ -1,0 +1,80 @@
+.grid .products .books,
+.crions,
+.notebook,
+.software,
+.tablets {
+    display: none;
+}
+
+.grid {
+    min-height: 900px;
+}
+
+.grid .SideList {
+    position: sticky;
+    top: 3cm;
+}
+
+.SideList li {
+    padding: 15px 15px;
+    /*width: 3cm;*/
+    border: 2px solid teal;
+    border-radius: 25px;
+    margin: 0 0 10px;
+}
+
+.grid .products div img {
+    max-width: 300px;
+    text-align: left;
+    /*height: 350px;*/
+    display: inline-block;
+}
+
+#listright {
+    text-align: center;
+}
+
+.grid div {
+    /*background-color: #28314E;
+    border: 1px solid #212941;*/
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.grid .products .maindiv {
+    /*InlineBlock*/
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.grid .products .books {
+    padding: 0;
+}
+
+.grid .products div ul {
+    position: relative;
+}
+
+.grid div ul {
+    list-style: none;
+    padding: 0px;
+    display: block;
+}
+
+.grid .products div ul li {
+    padding-top: 1%;
+    padding-left: 0px;
+    height: 30px;
+    text-align: left;
+    position: sticky;
+}
+
+.grid {
+    display: grid;
+    text-align: center;
+    grid-gap: 12px;
+    grid-template-columns: 2fr 6fr 1fr;
+    grid-auto-rows: minmax(100px, auto)
+}
